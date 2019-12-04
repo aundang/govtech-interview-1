@@ -3,6 +3,7 @@ const processFile = require('./processFile');
 
 const rootDir = './';
 
-getAllFiles(rootDir).forEach(filename => {
-  processFile(filename);
+getAllFiles(rootDir).forEach(async filename => {
+  const path = await processFile(filename);
+  if (path) console.log(path);
 });

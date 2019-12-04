@@ -1,4 +1,14 @@
-# govtech-interview-1
+# To clone the repository
+
+```
+git clone https://github.com/aundang/govtech-interview-1.git
+```
+
+# To install dependencies
+
+```
+npm install
+```
 
 ## To run the code
 
@@ -9,41 +19,46 @@ npm start
 ## Sample Output:
 
 ```
-/Users/a829573/Desktop/govtech-interview-1/dir1/text.txt
-/Users/a829573/Desktop/govtech-interview-1/node_modules/argparse/lib/help/formatter.js
-/Users/a829573/Desktop/govtech-interview-1/node_modules/camelcase/index.d.ts
-/Users/a829573/Desktop/govtech-interview-1/node_modules/camelcase/index.js
-/Users/a829573/Desktop/govtech-interview-1/node_modules/chai/CONTRIBUTING.md
-/Users/a829573/Desktop/govtech-interview-1/node_modules/chai/History.md
-/Users/a829573/Desktop/govtech-interview-1/node_modules/chai/README.md
-/Users/a829573/Desktop/govtech-interview-1/node_modules/chai/package.json
-/Users/a829573/Desktop/govtech-interview-1/node_modules/chai/sauce.browsers.js
-/Users/a829573/Desktop/govtech-interview-1/node_modules/debug/dist/debug.js
-/Users/a829573/Desktop/govtech-interview-1/node_modules/debug/src/browser.js
-/Users/a829573/Desktop/govtech-interview-1/node_modules/es-abstract/es2015.js
-/Users/a829573/Desktop/govtech-interview-1/node_modules/glob/common.js
-/Users/a829573/Desktop/govtech-interview-1/node_modules/he/he.js
-/Users/a829573/Desktop/govtech-interview-1/node_modules/js-yaml/dist/js-yaml.js
-/Users/a829573/Desktop/govtech-interview-1/node_modules/js-yaml/lib/js-yaml/loader.js
-/Users/a829573/Desktop/govtech-interview-1/node_modules/js-yaml/lib/js-yaml/type.js
-/Users/a829573/Desktop/govtech-interview-1/node_modules/minimatch/minimatch.js
-/Users/a829573/Desktop/govtech-interview-1/node_modules/mocha/lib/cli/run-helpers.js
-/Users/a829573/Desktop/govtech-interview-1/node_modules/mocha/lib/reporters/html.js
-/Users/a829573/Desktop/govtech-interview-1/node_modules/mocha/lib/suite.js
-/Users/a829573/Desktop/govtech-interview-1/node_modules/mocha/lib/utils.js
-/Users/a829573/Desktop/govtech-interview-1/node_modules/object-inspect/.eslintrc
-/Users/a829573/Desktop/govtech-interview-1/node_modules/p-try/index.d.ts
-/Users/a829573/Desktop/govtech-interview-1/node_modules/p-try/index.js
-/Users/a829573/Desktop/govtech-interview-1/node_modules/pathval/package.json
-/Users/a829573/Desktop/govtech-interview-1/node_modules/yargs/lib/argsert.js
-/Users/a829573/Desktop/govtech-interview-1/node_modules/yargs/lib/usage.js
-/Users/a829573/Desktop/govtech-interview-1/node_modules/yargs/lib/validation.js
-/Users/a829573/Desktop/govtech-interview-1/node_modules/yargs/yargs.js
-/Users/a829573/Desktop/govtech-interview-1/processFile.js
-/Users/a829573/Desktop/govtech-interview-1/test/text.txt
-/Users/a829573/Desktop/govtech-interview-1/text.txt
-/Users/a829573/Desktop/govtech-interview-1/node_modules/mocha/mocha.js
-/Users/a829573/Desktop/govtech-interview-1/node_modules/yargs/CHANGELOG.md
+/path/to/your/govtech-interview-1/node_modules/argparse/lib/help/formatter.js
+/path/to/your/govtech-interview-1/node_modules/camelcase/index.js
+/path/to/your/govtech-interview-1/node_modules/camelcase/index.d.ts
+/path/to/your/govtech-interview-1/node_modules/chai/CONTRIBUTING.md
+/path/to/your/govtech-interview-1/node_modules/chai/History.md
+/path/to/your/govtech-interview-1/node_modules/chai/README.md
+/path/to/your/govtech-interview-1/node_modules/chai/package.json
+/path/to/your/govtech-interview-1/node_modules/chai/sauce.browsers.js
+/path/to/your/govtech-interview-1/node_modules/debug/dist/debug.js
+/path/to/your/govtech-interview-1/node_modules/debug/src/browser.js
+/path/to/your/govtech-interview-1/node_modules/es-abstract/es2015.js
+/path/to/your/govtech-interview-1/node_modules/glob/common.js
+/path/to/your/govtech-interview-1/node_modules/he/he.js
+/path/to/your/govtech-interview-1/node_modules/js-yaml/dist/js-yaml.js
+/path/to/your/govtech-interview-1/node_modules/js-yaml/lib/js-yaml/loader.js
+/path/to/your/govtech-interview-1/node_modules/js-yaml/lib/js-yaml/type.js
+/path/to/your/govtech-interview-1/node_modules/minimatch/minimatch.js
+/path/to/your/govtech-interview-1/node_modules/mocha/lib/cli/run-helpers.js
+/path/to/your/govtech-interview-1/node_modules/mocha/lib/reporters/html.js
+/path/to/your/govtech-interview-1/node_modules/mocha/lib/suite.js
+/path/to/your/govtech-interview-1/node_modules/mocha/lib/utils.js
+/path/to/your/govtech-interview-1/node_modules/object-inspect/.eslintrc
+/path/to/your/govtech-interview-1/node_modules/p-try/index.d.ts
+/path/to/your/govtech-interview-1/node_modules/p-try/index.js
+/path/to/your/govtech-interview-1/node_modules/pathval/package.json
+/path/to/your/govtech-interview-1/node_modules/yargs/lib/argsert.js
+/path/to/your/govtech-interview-1/node_modules/yargs/lib/usage.js
+/path/to/your/govtech-interview-1/node_modules/yargs/lib/validation.js
+/path/to/your/govtech-interview-1/node_modules/yargs/yargs.js
+/path/to/your/govtech-interview-1/processFile.js
+/path/to/your/govtech-interview-1/somedir1/somemodule/somefiles.js
+/path/to/your/govtech-interview-1/somedir1/somemodule/someotherfiles.js
+/path/to/your/govtech-interview-1/somedir2/anotherdir/index.js
+/path/to/your/govtech-interview-1/somedir2/anotherdir/yet_another_dir/index.js
+/path/to/your/govtech-interview-1/somedir2/index.js
+/path/to/your/govtech-interview-1/somedir3/another_file.js
+/path/to/your/govtech-interview-1/test/appTest.js
+/path/to/your/govtech-interview-1/test/withtodo.js
+/path/to/your/govtech-interview-1/node_modules/mocha/mocha.js
+/path/to/your/govtech-interview-1/node_modules/yargs/CHANGELOG.md
 ```
 
 ## To run Unit Test
