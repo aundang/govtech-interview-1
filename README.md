@@ -1,15 +1,3 @@
-# To clone the repository
-
-```
-git clone https://github.com/aundang/govtech-interview-1.git
-```
-
-# To install dependencies
-
-```
-npm install
-```
-
 ## To run the code
 
 ```
@@ -65,6 +53,18 @@ npm start
 
 ```
 npm test
+```
+
+## test folder structor
+
+```
+/path/to/your/dir
+  - somedir
+    - dummy.js
+    - withtodo.js
+  - apptest.js
+  - dummy.js
+  - withtodo.js
 ```
 
 ## Sample Output:
