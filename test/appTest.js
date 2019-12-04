@@ -2,7 +2,7 @@ const assert = require('chai').assert;
 const getAllFiles = require('../getallfiles');
 const processFile = require('../processfile');
 
-describe('check if there are 4 files in the directory', () => {
+describe('check if there are 6 files in the directory', () => {
   it('get all files in the directory and check', () => {
     assert.equal(getAllFiles('./test').length, 6);
   });
