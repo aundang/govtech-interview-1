@@ -41,7 +41,7 @@ npm test
 ## Sample output:
 
 ```
-  check if there are 4 files in the directory
+  check if there are 6 files in the directory
     ✓ get all files in the directory and check
 
   check if file "withtodo.js" and "dummy.js" exist in the array
@@ -60,5 +60,5 @@ npm test
     ✓ call processFile to scan the file
 
 
-  6 passing (9ms))
+  6 passing (11ms)
 ```
