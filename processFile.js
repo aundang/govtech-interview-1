@@ -35,7 +35,7 @@ const fileScan = async (rl, filename) => {
      * the first occurence of "TODO", thus saves running time reading entire file.
      */
     if (strLine.includes('TODO')) {
-      path = resolve(filename);
+      path = resolve(filename); // will get the absolute path of the file
       break;
     }
   }
