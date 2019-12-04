@@ -61,7 +61,7 @@ npm start
 /path/to/your/govtech-interview-1/node_modules/yargs/CHANGELOG.md
 ```
 
-## To run Unit Test
+## To run unit test
 
 ```
 npm test
@@ -70,12 +70,21 @@ npm test
 ## Sample Output:
 
 ```
-  check if there are 3 files in the directory
+  check if there are 4 files in the directory
     ✓ getAllFiles method should return array of files
 
-  check files contains "text.txt" and "appTest.js"
+  check if file "withtodo.js" and "dummy.js" exist in the array
     ✓ getAllFiles method should return array of files
 
+  check if processFile returns the absolute path
+    ✓ call processFile to scan the file
 
-  2 passing (4ms)
+  check if file "withtodo.js" contain "TODO"
+    ✓ call processFile to scan the file
+
+  check if file "dummy.js" does not contain "TODO"
+    ✓ call processFile to scan the file
+
+
+  5 passing (10ms)
 ```
