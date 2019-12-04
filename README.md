@@ -4,7 +4,7 @@
 npm start
 ```
 
-## Sample Output:
+## Sample output:
 
 ```
 /path/to/your/govtech-interview-1/processFile.js
@@ -26,7 +26,7 @@ npm start
 npm test
 ```
 
-## test folder structor
+## test folder structure
 
 ```
 /path/to/your/dir
@@ -38,24 +38,27 @@ npm test
   - withtodo.js
 ```
 
-## Sample Output:
+## Sample output:
 
 ```
   check if there are 4 files in the directory
-    ✓ getAllFiles method should return array of files
+    ✓ get all files in the directory and check
 
   check if file "withtodo.js" and "dummy.js" exist in the array
-    ✓ getAllFiles method should return array of files
+    ✓ get all files in the directory and check
+
+  check if files inside sub-directories contains "TODO"
+    ✓ get all files in the directory and check
 
   check if processFile returns the absolute path
-    ✓ call processFile to scan the file
+    ✓ call processFile to check the file
 
   check if file "withtodo.js" contain "TODO"
-    ✓ call processFile to scan the file
+    ✓ call processFile to check the file
 
   check if file "dummy.js" does not contain "TODO"
     ✓ call processFile to scan the file
 
 
-  5 passing (10ms)
+  6 passing (9ms))
 ```
