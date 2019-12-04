@@ -1,7 +1,7 @@
 ## To run the code
 
 ```
-npm start
+npm run start
 ```
 
 ## Sample output:
@@ -23,7 +23,7 @@ npm start
 ## To run unit test
 
 ```
-npm test
+npm run test
 ```
 
 ## test folder structure
