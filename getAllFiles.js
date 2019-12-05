@@ -5,23 +5,23 @@ const path = require('path');
  * This function recursively returns all files from a given root directory and its subdirectories
  *
  * @param {string}  rootDir Root of the directory
- * @param {string}  arrayOfFiles array container for the recursive call
+ * @param {string}  arrayOfFilenames array container for the recursive call
  * @return {type} Returns array of files
  */
-const getAllFiles = (rootDir, arrayOfFiles) => {
+const getAllFiles = (rootDir, arrayOfFilenames) => {
   let files = fs.readdirSync(rootDir);
 
-  arrayOfFiles = arrayOfFiles || [];
+  arrayOfFilenames = arrayOfFilenames || [];
 
   files.forEach(file => {
     if (fs.statSync(rootDir + '/' + file).isDirectory()) {
-      arrayOfFiles = getAllFiles(rootDir + '/' + file, arrayOfFiles);
+      arrayOfFilenames = getAllFiles(rootDir + '/' + file, arrayOfFilenames);
     } else {
-      arrayOfFiles.push(path.join(__dirname, rootDir, '/', file));
+      arrayOfFilenames.push(path.join(__dirname, rootDir, '/', file));
     }
   });
 
-  return arrayOfFiles;
+  return arrayOfFilenames;
 };
 
 module.exports = getAllFiles;

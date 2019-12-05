@@ -10,11 +10,11 @@ const resolve = require('path').resolve;
  */
 const processFile = async filename => {
   const fileStream = fs.createReadStream(filename);
-  const rl = readline.createInterface({
+  const readLineStream = readline.createInterface({
     input: fileStream
   });
 
-  const absolutePath = await fileScan(rl, filename);
+  const absolutePath = await fileScan(readLineStream, filename);
 
   return absolutePath;
 };
@@ -23,12 +23,12 @@ const processFile = async filename => {
  * This function reads line of string and search for "TODO"
  *
  * @param {string}  filename The filename to scan
- * @param {string}  rl Read line stream
+ * @param {string}  readLineStream Read line stream
  * @return {type}  Returns the absolute path of the file
  */
-const fileScan = async (rl, filename) => {
+const fileScan = async (readLineStream, filename) => {
   let path = null;
-  for await (const line of rl) {
+  for await (const line of readLineStream) {
     let strLine = line.toUpperCase();
     /**
      * Below code will break the loop when we locate
