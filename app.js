@@ -7,6 +7,6 @@ const rootDir = './';
  * Main program
  */
 getAllFiles(rootDir).forEach(async filename => {
-  const absolutPath = await processFile(filename);
-  if (absolutPath) console.log(absolutPath);
+  const absolutePath = await processFile(filename);
+  if (absolutePath) console.log(absolutePath);
 });
